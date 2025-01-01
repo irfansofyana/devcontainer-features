@@ -1,0 +1,16 @@
+{
+    "name": "kcat",
+    "id": "kcat-apt",
+    "version": "1.0.0",
+    "description": "A Kafka command line utility using kcat (formerly kafkacat). Only supports Debian/Ubuntu.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Select version of kcat (kafkacat) to install. Use distribution version format (e.g., '1.7.0-1'). Defaults to latest version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
