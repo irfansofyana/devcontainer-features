@@ -1,0 +1,24 @@
+{
+    "latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "kcat-apt": {}
+        }
+    },
+    "debian": {
+        "image": "debian:latest",
+        "features": {
+            "kcat-apt": {
+                "version": "latest"
+            }
+        }
+    },
+    "specific_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "kcat-apt": {
+                "version": "1.6.0-1"
+            }
+        }
+    }
+}
