@@ -7,7 +7,6 @@
 #
 # Thus, the value of all options will fall back to the default value in the
 # Feature's 'devcontainer-feature.json'.
-# For the 'kcat-apt' feature, that means the default version is 'latest'.
 
 set -e
 
