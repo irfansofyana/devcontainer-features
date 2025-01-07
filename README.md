@@ -4,6 +4,27 @@ This repository contains my personal collection of [Dev Container Features](http
 
 ## Available Features
 
+### `lazydocker-binary-release`
+
+A simple terminal UI for both docker and docker-compose, installed via Linux binary release. This feature provides an intuitive interface to manage Docker containers, services, and logs.
+
+```jsonc
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/irfanputra/devcontainer-features/lazydocker-binary-release:1": {
+            "version": "latest"
+        }
+    }
+}
+```
+
+#### Options
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| version | string | "latest" | The version of lazydocker to install (e.g. '0.24.1'). Defaults to the latest version. |
+
 ### `kcat-apt`
 
 A Kafka command line utility using kcat (formerly kafkacat). This feature is specifically designed for Debian/Ubuntu-based containers.
