@@ -2,7 +2,7 @@
     "name": "lazydocker",
     "id": "lazydocker-binary-release",
     "version": "1.0.0",
-    "description": "A simple terminal UI for both docker and docker-compose installed with binary release",
+    "description": "A simple terminal UI for both docker and docker-compose. Installed by linux binary release",
     "documentationURL": "https://github.com/irfansofyana/devcontainer-features/src/lazy-docker-binary-release",
     "options": {
         "version": {
